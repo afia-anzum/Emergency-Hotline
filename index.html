@@ -19,25 +19,33 @@
 </head>
 <body class="bg-[#F5FFF6]">
     <!--navbar-->
-    <section class="px-0 flex flex-  sm:flex-row  justify-between bg-[white] h-[] sm:px-[60px]  mt-5">
-    <div class="nav-logo flex gap-1 sm:gap-5 items-center mb-4">
-        <img class="h-[50px] w-[50px]" src="assets/logo.png" alt=""  >
-        <h2 class="text-[20px] sm:text-[32px] font-bold hf text-[#006747] ">Emergency <br>Service</h2>
+<section class="px-0 flex flex-col sm:flex-row justify-between items-center bg-white sm:px-[60px] mt-5">
+    
+  <!-- Logo -->
+  <div class="nav-logo flex items-center gap-3 sm:gap-5 mb-4 sm:mb-0">
+    <img class="h-[50px] w-[50px]" src="assets/logo.png" alt="Logo">
+    <h2 class="text-[20px] sm:text-[32px] font-bold text-[#006747] leading-tight">
+      Emergency <br> Service
+    </h2>
+  </div>
+<div class="flex items-center gap-3 sm:gap-5 mb-4 sm:mb-0">
+    <div class="flex items-center gap-2 px-3 py-2 bg-[#41FF6B1A] rounded-[50px]">
+      <p class="text-[16px] font-semibold" id="heart-count">0</p>
+      <img class="h-[30px] w-[30px]" src="assets/heart.png" alt="Heart">
     </div>
-    <div class="flex gap-1 sm:gap-5 items-center mb-4 ">
-        <div class="flex gap-2 px-3 py-2 bg-[#41FF6B1A] rounded-[50px]">
-            <p class="text-[16px] font-semibold" id="heart-count" > 0</p>
-        <img class="h-[30px] w-[30px]" src="assets/heart.png" alt="" >
+
+    <div class="flex items-center gap-2 px-3 py-2 bg-[#41FF6B1A] rounded-[40px]">
+      <p class="text-[16px] font-semibold">
+        <span id="point">100</span>
+      </p>
+      <img src="assets/coin.png" alt="Coin" class="h-6 w-6">
     </div>
-        <div class="flex  bg-[#41FF6B1A] rounded-[40px] items-center gap-2 px-3 py-2">
-            <p class="text-[16px] font-semibold">
-                <span id="point"> 100</span></p>
-        <img src="assets/coin.png" alt="" class="h-6 w-6">
-    </div>
-    <button class="cp2 bg-[#00A63E] text-white font-semibold py-2 px-3 rounded-[40px] text-[16px]">
-        <span id="copy-count"> 0</span>Copy</button>
-    </div>
-   </section>               
+    <button class="bg-[#00A63E] text-white font-semibold py-2 px-4 rounded-[40px] text-[16px] hover:bg-[#008c34] transition">
+      <span id="copy-count">0</span> Copy
+    </button>
+  </div>
+
+</section>
 
 
     
